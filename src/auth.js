@@ -480,6 +480,7 @@ module.exports = function () {
         tokenImpersonateName: 'impersonate_auth_token',
         tokenDefaultName:     'default_auth_token',
         tokenStore:           ['sessionStorage', 'localStorage', 'cookie'],
+        cookieExpireOffset:   20160,
 
         // Objects
 
